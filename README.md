@@ -13,8 +13,11 @@ The snake ('O' for head, 'o' for body) moves around a board surrounded by walls 
 Rules
 1.Each fruit will give 10 points,with a final score of 100 points to win.
 2.Game ends if you run into your own tail 
+3.The walls don't kill,if youhit a wall, you wrap around to the other side.
+4.Can't pause the game
 
 Technical stuff
 Uses Windows.h for console manipulation
 Uses CHAR_INFO buffer to draw the entire screen at once (prevents flickering)
+Random food placement using rand()
 
