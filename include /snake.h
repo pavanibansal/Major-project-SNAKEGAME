@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include <windows.h>
 #include <conio.h>
+#include <windows.h>
+#include <stdlib.h>
 #include <time.h>
 
-#define W 40
-#define H 20
+#define w 20 
+#define h 10
